@@ -1,0 +1,18 @@
+nav .nav-item {
+    padding: 0px 40px;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+    align-items: center;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(253, 145, 4);
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$text_color_1: #000000;
+$text_color_2: #fff;
+$hover_color_1 : #000000;
+$hover_color_2 : linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);
+$body_color: linear-gradient(to bottom right, rgb(246, 242, 255, 0.5) 20%, rgba(175, 82, 222, 0.5), rgba(255, 0, 0, 0.6));
+
+
+
+body {
+    text-decoration: none;
+    width: 100%;
+    // background-color: #F6F2FF;
+    // background: linear-gradient(#F6F2FF, #AF52DE, #FF375F);
+    background: $body_color ;
+    opacity: 0;
+}
+
+
+
+.button {
+    padding: 5px 26px;
+
+    /* Shadow/200 */
+    box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12), 0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: $hover_color_2 ;
+}
+
+.button1 {
+    padding: 5px 26px;
+    /* Shadow/200 */
+    box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12), 0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+    margin-left: 80px;
+    color: $text_color_1;
+}
+
+.button1:hover {
+    background: $hover_color_1;
+    color: $text_color_2;
+}

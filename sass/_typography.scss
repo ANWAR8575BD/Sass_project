@@ -1,0 +1,27 @@
+$h1_color: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+
+
+.banner_area h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    /* Gradient/Purple/gradient 16 */
+    background: $h1_color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.banner_area p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    /* Cold Grey/60 */
+    color: #696C73;
+    padding: 60px 0;
+}
